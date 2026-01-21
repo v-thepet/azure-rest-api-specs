@@ -300,7 +300,7 @@ model ManagedClusterProperties {
   provisioningState?: ManagedResourceProvisioningState;
 
   /**
-   * The Service Fabric runtime version of the cluster. This property is required when **clusterUpgradeMode** is set to 'Manual'. To get list of available Service Fabric versions for new clusters use [ClusterVersion API](./ClusterVersion.md). To get the list of available version for existing clusters use **availableClusterVersions**.
+   * The Service Fabric runtime version of the cluster. This property is required when **clusterUpgradeMode** is set to 'Manual'. To get list of available Service Fabric versions for new clusters use [ClusterVersion API](applicationtypes/versions.md). To get the list of available version for existing clusters use **availableClusterVersions**.
    */
   clusterCodeVersion?: string;
 
